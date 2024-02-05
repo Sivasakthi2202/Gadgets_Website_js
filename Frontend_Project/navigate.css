@@ -1,0 +1,338 @@
+
+/**card**/
+.lef {
+    display: flex;
+    flex-direction: column;
+  }
+  .lef1 p {
+    font-size: 32px;
+    margin-top: 50px;
+    float: left;
+    margin-left: 20px;
+    color: rgb(53, 53, 67);
+    line-height: 40px;
+    font-weight: 500px;
+  }
+  .lef2 select {
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 40px;
+    width: 100%;
+    font-size: 18px;
+    border: 1px solid #ccc;
+  }
+  .mainlef3 {
+    border: 1px solid #ccc;
+    height: 1970px;
+    width: 100%;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  .lef3 h4 {
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  .lef3 h6 {
+    color: gray;
+    font-size: 13px;
+    margin-left: 20px;
+  }
+  .lef3 p {
+    margin-left: 20px;
+    color: #ccc;
+  }
+  .lef4 select {
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 40px;
+    width: 85%;
+    font-size: 19px;
+    font-weight: bold;
+    border: none;
+  }
+  .lef5 {
+    width: 300px;
+    outline: 1px solid #ccc;
+    display: flex;
+    margin-top: 10px;
+    margin-left: 15px;
+    border-radius: 5px;
+    align-items: center;
+    position: relative;
+  }
+  .searchinput {
+    width: 50%;
+    height: 45px;
+    font-size: 18px;
+    font-family: "calibri";
+    margin-left: 10px;
+    border: none;
+    outline: none;
+  }
+  .sicon img {
+    margin-left: 10px;
+    height: 20px;
+  }
+  .sublef6 {
+    margin-top: 20px;
+    margin-left: 20px;
+    line-height: 40px;
+  }
+  .slef1 label {
+    margin-left: 20px;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    color: rgb(80, 79, 79);
+  }
+  .lef7 p {
+    margin-left: 20px;
+    color: #ccc;
+  }
+  .lef8 select {
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 40px;
+    width: 85%;
+    font-size: 19px;
+  
+    border: none;
+  }
+  .lef8 p {
+    margin-left: 20px;
+    color: #ccc;
+  }
+  .lef9 select {
+    margin-left: 20px;
+    height: 40px;
+    width: 85%;
+    font-size: 19px;
+  
+    border: none;
+  }
+  .lef9 p {
+    margin-left: 20px;
+    color: #ccc;
+  }
+  .lef10 select {
+    margin-left: 20px;
+    height: 40px;
+    width: 85%;
+    font-size: 19px;
+  
+    border: none;
+  }
+  .lef10 p {
+    margin-left: 20px;
+    color: #ccc;
+  }
+  .lef11 select {
+    margin-left: 20px;
+    height: 40px;
+    width: 85%;
+    font-size: 19px;
+    border: none;
+  }
+  .lef11 p {
+    margin-left: 20px;
+    color: #ccc;
+  }
+  .lef12 select {
+    margin-left: 20px;
+    height: 40px;
+    width: 85%;
+    font-size: 19px;
+    border: none;
+  }
+  .lef12 p {
+    margin-left: 20px;
+    color: #ccc;
+  }
+  .lef13 select {
+    margin-left: 20px;
+    height: 40px;
+    width: 85%;
+    font-size: 19px;
+  
+    border: none;
+  }
+  .lef13 p {
+    margin-left: 20px;
+    color: #ccc;
+  }
+  .lef14 select {
+    margin-left: 20px;
+    height: 40px;
+    width: 85%;
+    font-size: 19px;
+  
+    border: none;
+  }
+  .lef14 p {
+    margin-left: 20px;
+    color: #ccc;
+  }
+  .lef15 select {
+    margin-left: 20px;
+    height: 40px;
+    width: 85%;
+    font-size: 19px;
+  
+    border: none;
+  }
+  .lef15 p {
+    margin-left: 20px;
+    color: #ccc;
+  }
+  .lef16 select {
+    margin-left: 20px;
+    height: 40px;
+    width: 85%;
+    font-size: 19px;
+  
+    border: none;
+  }
+  .lef16 p {
+    margin-left: 20px;
+    color: #ccc;
+  }
+  .lef17 select {
+    margin-left: 20px;
+    height: 40px;
+    width: 85%;
+    font-size: 19px;
+  
+    border: none;
+  }
+  .lef17 p {
+    margin-left: 20px;
+    color: #ccc;
+  }
+  .lef18 select {
+    margin-left: 20px;
+    height: 40px;
+    width: 85%;
+    font-size: 19px;
+  
+    border: none;
+  }
+  .lef18 p {
+    margin-left: 20px;
+    color: #ccc;
+  }
+  .lef19 select {
+    margin-left: 20px;
+    height: 40px;
+    width: 85%;
+    font-size: 19px;
+  
+    border: none;
+  }
+  .lef19 p {
+    margin-left: 20px;
+    color: #ccc;
+  }
+  .lef20 select {
+    margin-left: 20px;
+    height: 40px;
+    width: 85%;
+    font-size: 19px;
+  
+    border: none;
+  }
+  .lef20 p {
+    margin-left: 20px;
+    color: #ccc;
+  }
+  .lef21 select {
+    margin-left: 20px;
+    height: 40px;
+    width: 85%;
+    font-size: 19px;
+  
+    border: none;
+  }
+  .lef21 p {
+    margin-left: 20px;
+    color: #ccc;
+  }
+  .lef22 select {
+    margin-left: 20px;
+    height: 40px;
+    width: 85%;
+    font-size: 19px;
+    border: none;
+  }
+  .lef22 p {
+    margin-left: 20px;
+    color: #ccc;
+  }
+  .lef23 select {
+    margin-left: 20px;
+    height: 40px;
+    width: 85%;
+    font-size: 19px;
+  
+    border: none;
+  }
+  .lef23 p {
+    margin-left: 20px;
+    color: #ccc;
+  }
+  .lef24 select {
+    margin-left: 20px;
+    height: 40px;
+    width: 85%;
+    font-size: 19px;
+  
+    border: none;
+  }
+  .lef24 p {
+    margin-left: 20px;
+    color: #ccc;
+  }
+  .lef25 select {
+    margin-left: 20px;
+    height: 40px;
+    width: 85%;
+    font-size: 19px;
+  
+    border: none;
+  }
+  .lef25 p {
+    margin-left: 20px;
+    color: #ccc;
+  }
+  .lef26 select {
+    margin-left: 20px;
+    height: 40px;
+    width: 85%;
+    font-size: 19px;
+    border: none;
+  }
+  .lef26 p {
+    margin-left: 20px;
+    color: #ccc;
+  }
+  .lef27 select {
+    margin-left: 20px;
+    height: 40px;
+    width: 85%;
+    font-size: 19px;
+  
+    border: none;
+  }
+  .lef27 p {
+    margin-left: 20px;
+    color: #ccc;
+  }
+  .card {
+    display: flex;
+  }
+  .card2 {
+    display: flex;
+    flex-direction: column;
+  }

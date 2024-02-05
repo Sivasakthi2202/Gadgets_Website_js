@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping Cart</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    *{
+      padding: 0;
+      margin: 0;
+    }
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 20px;
+      background-color: white;
+    }
+    .container{
+      margin-top: 50px;
+    }
+    .product-container {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+    .product-image {
+      max-width: 100%;
+      height: auto;
+    }
+    .product-details {
+      flex: 0 0 60%;
+      padding-left: 20px;
+    }
+    .product-price {
+      font-size: 24px;
+      color: #e74c3c; /* Red color for discount */
+    }
+    .mrp {
+      text-decoration: line-through;
+      color: #888;
+    }
+    .rating {
+      color: #f1c40f; /* Yellow color for stars */
+    }
+    .additional-details {
+      margin-top: 20px;
+    }
+    .additional-details img{
+      width: 20px;
+    }
+    .add-to-cart-btn {
+      background-color: #3498db;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+      /*----------------------------------------------- sub Nav-bar------------------------------------------------------ */
+
+ /* Add your custom styles here */
+
+        /* Sub-navbar styles */
+        .sub-navbar {
+          background-color: rgb(231, 231, 231);
+          border-bottom: 1px solid #fff;
+          padding: 20px;
+          border-radius: 25px ;
+      }
+
+      .sub-navbar a {
+          padding: 0 10px;
+          color: #000;
+          text-decoration: none;
+          border-right: 1px solid gray;
+          margin-right: 5px;
+          font-size: 20px;
+      }
+      .sub-navbar a:last-child {
+          border-right: none;
+      }
+      .sub-navbar a:hover{
+          color: white;
+          background-color: black;
+          padding: 25px;
+          text-decoration: none;
+          list-style: none;
+          border: 1px solid lightseagreen;
+      }
+      .col-md-6 img{
+        border: 2px solid whitesmoke;
+      }
+ /* //////////////////////////////////////////////////////////////////////////// */
+ .body-main {
+  padding: 0px;
+  margin: 20px;
+ }
+ .body-main img{
+  border-radius: 50px;
+ }
+  </style>
+</head>
+<body>
+  <div class="sub-navbar">
+    <a href="phon1.html">Mobile</a>
+    <a href="#">Mobile Accessories</a>
+    <a href="#">Laptop</a>
+    <a href="#">Laptop Accessories</a>
+    <a href="#">Airpods</a>
+    <a href="#">Smartwatches</a>
+</div>
+<!-- phone page -->
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <img src="image/main1.jpg" alt="Product Image" class="product-image">
+    </div>
+    <div class="col-md-6 product-details">
+      <h2>Realme Narzo 60X 5G</h2>
+      <p>(Stellar Green, 6GB, 128GB Storage)</p>
+      <p>Up to 2TB External Memory | 50 MP AI Primary Camera | 33W Supervooc Charge</p>
+
+      <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9734; <span class="text-warning">4.5 stars</span></div>
+
+      <p class="product-price">&#8377;14,499 <span class="discount">-9%</span></p>
+      <p class="mrp">M.R.P.: &#8377;15,999.00</p>
+
+      <div class="additional-details">
+        <p><img src="image/replacement.png"/> 7 days Service Centre Replacement</p>
+        <p><img src="image/delivery.png"/> Free Delivery</p>
+        <p><img src="image/warranty.jpg"/> 1 Year Warranty</p>
+        <p><img src="image/payondelivery.png"/>Cash on Delivery</p>
+      </div>
+
+      <div class="form-group">
+        <label for="color">Colour:</label>
+        <select class="form-control" id="color">
+          <option>Stellar Green</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="size">Size:</label>
+        <select class="form-control" id="size">
+          <option>6 GB Ram + 128 GB Storage</option>
+        </select>
+      </div>
+
+      <button class="add-to-cart-btn" onclick="addToCart()">Add to Cart</button>
+    </div>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script>
+  function addToCart() {
+    // Redirect to carts2.html after adding to cart
+    window.location.href = "carts2.html";
+  }
+</script>
+
+</body>
+</html>

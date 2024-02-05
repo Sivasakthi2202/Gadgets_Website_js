@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mobiles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+<!-------------------------------------------------------- main navbar ------------------------------------------------>
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="#">
+        <img src="image/logo.png" alt="Logo" height="30">
+    </a>
+
+    <ul class="navbar-nav ml-auto">
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="updateLocationDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Update Location
+            </a>
+            <div class="dropdown-menu" aria-labelledby="updateLocationDropdown">
+                <a class="dropdown-item" href="#"><img src="image/location.png"/>Add Your Delivery Address</a>
+                <center><button class="btn btn-primary" onclick="showPopup()">Add Address</button></center>
+            </div>
+        </li>
+        <li class="nav-item">
+            <form class="form-inline">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-light my-2 my-sm-0" type="submit"><img src="image/search2.png"/></button>
+            </form>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fas fa-heart"></i> Wishlist</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i> Cart</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="accountDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Account
+            </a>
+            <div class="dropdown-menu" aria-labelledby="accountDropdown">
+                <a href="#"><button class="btn btn-primary" onclick="showSignInPopup()">Sign In</button></a>
+                <p>New Customer?<span>sign-in here.</span></p>
+            </div>
+        </li>
+    </ul>
+</nav>
+
+<div id="popup" class="modal">
+    <!-- Add your popup content here -->
+        <form class="modal-content animate" action="/action_page.php" method="post">
+            <div class="imgcontainer">
+              <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+            </div>
+        <!-- Your form fields -->
+        <div class="container2">
+        <label for="exampleInputEmail1" class="form-label">First Name<span>*</span></label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <label for="exampleInputEmail1" class="form-label">Last Name<span>*</span></label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <label for="exampleInputEmail1" class="form-label">Location<span>*</span></label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <label for="exampleInputEmail1" class="form-label">State<span>*</span></label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <label for="exampleInputEmail1" class="form-label">City<span>*</span></label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <label for="exampleInputEmail1" class="form-label">Mobile no<span>*</span></label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"><br>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+    </form>
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script> function showPopup() {
+  document.getElementById("popup").style.display = "block";
+}
+
+function showSignInPopup() {
+  // Implement code to show sign-in popup
+}
+</script>
+    <!----------------------------------- Sub Nav-bar ------------------------------------------------------>
+    <div class="sub-navbar">
+      <a href="navigate.html">Mobile</a>
+      <a href="#">Mobile Accessories</a>
+      <a href="#">Laptop</a>
+      <a href="#">Laptop Accessories</a>
+      <a href="#">Airpods</a>
+      <a href="#">Smartwatches</a>
+  </div>
+  
+  
+          <!------------------------------------------------ body ------------------------------------------------->
+          <div class="body-main">
+          <img src="image/bodymain.jpg" style="width:100%">
+        </div>
+        <div class="first">
+        <div class="body-sub">
+          <img src="image/bodysub.jpg" style="width:100%">
+        </div>
+        <!----------------------------------------------------- slideshow ---------------------------------------------->
+          <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <img src="image/bodyim1.jpg" style="width:80%">
+              <div class="text">Caption Text</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              <img src="image/bodyim2.jpg" style="width:80%" >
+              <div class="text">Caption Two</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <img src="image/bodyim3.jpg" style="width:80%" >
+              <div class="text">Caption Three</div>
+            </div>
+            
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+            </div>
+        </div>
+      </div>
+      <!---------------------------------------------------- phones ------------------------------------------------------>
+      <div class="phonav">
+        <div class="pho1">
+          <a href="phon1.html"><img src="image/phone1.jpg"/></a>
+        </div>
+        <div class="pho2">
+          <a href="phon1.html"><img src="image/phone2.jpg"/></a>
+        </div>
+        <div class="pho3">
+          <a href="phon1.html"><img src="image/phone3.jpg"/></a>
+        </div>
+        </div>
+        <div class="phonav2">
+        <div class="pho3">
+          <a href="phon1.html"><img src="image/phone4.jpg"/></a>
+        </div>
+        <div class="pho3">
+          <a href="phon1.html"><img src="image/phone5.jpg"/></a>
+        </div>
+        <div class="pho3">
+          <a href="phon1.html"><img src="image/phone6.jpg"/></a>
+        </div>
+      </div>
+      <!------------------------------------------------- footer ------------------------------------------------->
+      <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Contact Us</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <i class="fas fa-phone-alt footer-icons"></i>
+                            <p>123-456-7890</p>
+                        </li>
+                        <li>
+                            <i class="far fa-envelope footer-icons"></i>
+                            <p>info@example.com</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h5>Connect with Us</h5>
+                    <ul class="footer-social-icons">
+                        <li><a href="#" class="footer-link"><i class="fab fa-whatsapp footer-icons"></i></a></li>
+                        <li><a href="#" class="footer-link"><i class="far fa-envelope footer-icons"></i></a></li>
+                        <li><a href="#" class="footer-link"><i class="fab fa-facebook-f footer-icons"></i></a></li>
+                        <li><a href="#" class="footer-link"><i class="fab fa-twitter footer-icons"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+        <script src="mobile.js"></script>
+</body>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f8f9fa;
+    }
+    .parent{
+        display: flex;
+    }
+    #sidebar {
+      height: 100%;
+      width: 250px;
+      margin-top: 20px;
+      background-color: #1b1c1d;
+    }
+    #sidebar a:hover{
+        background-color: #4f5962;
+    }
+
+    #sidebar a {
+      padding: 10px 15px;
+      font-size: 16px;
+      color: #d1d8e0;
+      display: block;
+      text-decoration: none;
+      border-bottom: 1px solid #4f5962;
+    }
+
+    #content {
+      padding: 20px;
+    }
+          /*----------------------------------------------- sub Nav-bar------------------------------------------------------ */
+
+ /* Add your custom styles here */
+
+        /* Sub-navbar styles */
+        .sub-navbar {
+          background-color: rgb(231, 231, 231);
+          border-bottom: 1px solid #fff;
+          padding: 20px;
+      }
+
+      .sub-navbar a {
+          padding: 0 10px;
+          color: #000;
+          text-decoration: none;
+          border-right: 1px solid gray;
+          margin-right: 5px;
+          font-size: 20px;
+      }
+      .sub-navbar a:last-child {
+          border-right: none;
+      }
+      .sub-navbar a:hover{
+          color: white;
+          background-color: black;
+          padding: 25px;
+          text-decoration: none;
+          list-style: none;
+          border: 1px solid lightseagreen;
+      }
+      .col-md-6 img{
+        border: 2px solid whitesmoke;
+      }
+ /* //////////////////////////////////////////////////////////////////////////// */
+ .body-main {
+  padding: 0px;
+  margin: 20px;
+ }
+ .body-main img{
+  border-radius: 50px;
+ }
+  </style>
+  <title>Category Sidebar</title>
+</head>
+<body>
+    <div class="sub-navbar">
+        <a href="phon1.html">Mobile</a>
+        <a href="#">Mobile Accessories</a>
+        <a href="#">Laptop</a>
+        <a href="#">Laptop Accessories</a>
+        <a href="#">Airpods</a>
+        <a href="#">Smartwatches</a>
+    </div>
+<!----------------------------------------------- main ------------------------------------------------------------>
+<div class="parent">
+<div id="sidebar">
+  <a href="#">Electronics</a>
+  <a href="#">Mobiles & Accessories</a>
+  <a href="#">Mobile Accessories</a>
+  <!-- Add more categories as needed -->
+
+  <a href="#">Brands</a>
+  <a href="#">OnePlus</a>
+  <a href="#">Xiaomi</a>
+  <a href="#">Apple</a>
+  <!-- Add more brands as needed -->
+
+  <a href="#">Avg. Customer Review</a>
+  <a href="#">New Arrivals</a>
+  <a href="#">Item Condition</a>
+  <a href="#">Price</a>
+  <a href="#">Deals & Discounts</a>
+  <a href="#">Seller</a>
+  <a href="#">Availability</a>
+</div>
+
+<div id="content">
+  <!-- Your main content goes here -->
+  <h2>Main Content</h2>
+  <p>This is where your product listings and other content will be displayed.</p>
+</div>
+</div>
+</body>
+</html>
